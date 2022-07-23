@@ -1,8 +1,7 @@
 import React from 'react'
-import s from './navBar.module.css'
 import '../layout.css'
-const resumeData = {name:'IGnacio',role:'dev'};
-function NavBar() {
+import { prop } from '../../App'
+function NavBar({resumeData}:prop) {
   return (
    <>
    <header id="home">
