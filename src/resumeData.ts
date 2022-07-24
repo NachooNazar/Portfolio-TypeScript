@@ -84,7 +84,7 @@ const resumeData ={
       {
         name: 'Final Group Project',
         description: 'RGB store is an E-commerce of gaming stuff where you can buy specific components, Prebuild pcs or build your own PC! was made in group',
-        imgurl: './images/store.png',
+        imgurl: './rgb.gif',
         url: 'https://pg-rgb-store-three.vercel.app/',
         date:'June - July',
         technologies:['React-Redux','Express','PostgreSQL','Tailwind']
