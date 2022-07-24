@@ -1,6 +1,6 @@
 const resumeData ={
     name: 'Ignacio Nazar',
-    role: 'Full Stack Developer',
+    role: 'Back-end developer',
     linkedinId: 'Ignacio Nazar',
     skypeid: '@nachoonazar1',
     roleDescription:
