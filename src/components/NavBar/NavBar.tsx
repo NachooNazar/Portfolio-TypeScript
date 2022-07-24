@@ -1,7 +1,7 @@
 import React from 'react'
 import '../layout.css'
 import { prop } from '../../App'
-function NavBar({resumeData}:prop) {
+const NavBar = ({resumeData}:prop) => {
   return (
    <>
    <header id="home">
@@ -13,7 +13,7 @@ function NavBar({resumeData}:prop) {
               Hide navigation
             </a>
             <ul id="nav" className="nav">
-              <li className="current">
+              <li>
                 <a className="smoothscroll" href="#home">
                   Home
                 </a>
@@ -42,21 +42,9 @@ function NavBar({resumeData}:prop) {
             <div className="banner-text">
               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
               <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
-                {/* A {resumeData.role}.{resumeData.roleDescription} */}
+                A {resumeData.role}
               </h3>
               <hr />
-              <ul className="social">
-                {/* {resumeData.socialLinks &&
-                  resumeData.socialLinks.map((item) => {
-                    return (
-                      <li key={item.name}>
-                        <a href={item.url} target="_blank">
-                          <i className={item.className} />
-                        </a>
-                      </li>
-                    );
-                  })} */}
-              </ul>
             </div>
           </div>
 

@@ -22,11 +22,21 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
 
+
+.conteiner-main{
+   width: 100%;
+   height: 100%;
+}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
+.conteiner-cosas{
+   display: grid;
+   grid-template-columns: auto auto auto;
+  
+   text-align: center;
+}
 
 header {
    position: relative;
@@ -128,7 +138,9 @@ header .scrolldown a:hover { color: #11ABB0; }
 	 border: none;
 	 outline: none;
 }
-
+#nav-wrap a:hover{
+   color: #B8F3FF;
+}
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
@@ -170,7 +182,8 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #0077b6;
+  
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
