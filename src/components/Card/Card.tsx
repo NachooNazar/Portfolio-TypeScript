@@ -1,5 +1,8 @@
 import React from 'react'
 import './card.scss'
+import rgb from '../../rgb.gif'
+import pokemon from '../../images/pokemon.png'
+
 interface ProjectProp {
     name: string;
     description:string;
@@ -18,7 +21,7 @@ const Card = ({item}:objProp) => {
     <div className="blog-card">
         <div className="meta">
         <div className="photo">
-          <img src={item.imgurl}/>
+          <img src={item.name === 'Individual Project' ? pokemon :rgb} alt='projectPhoto'/>
         </div>
         <ul className="details">
             <li className="author"><a href="#">Ignacio Nazar</a></li>
